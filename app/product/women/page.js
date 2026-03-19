@@ -3,7 +3,7 @@ import React from 'react';
 const page = () => {
   return (
     <div className='text-3xl underline'>
-      Product Page
+      Women's Product Page
     </div>
   );
 }
