@@ -1,7 +1,7 @@
 import React from 'react';
 
 const page = () => {
-  return (
+  return ( 
     <div className='text-3xl underline'>
       Women's Product Page
     </div>
