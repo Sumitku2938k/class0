@@ -3,13 +3,14 @@ import { useParams } from 'next/navigation';
 import React from 'react';
 
 const page = () => {
-    const { id } = useParams();
-    console.log(id);
+    const params = useParams();
+    console.log(params.courseId);
     return (
         <div>
-            <h1 className='text-3xl underline'>{id} Course</h1>
+            <h1 className='text-3xl underline'>{params.courseId} Course</h1>
         </div>
     );
 }
 
 export default page;
+
